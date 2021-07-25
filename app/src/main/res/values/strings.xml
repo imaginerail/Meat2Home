@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Meat2Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="already_have_an_account_log_in"><u>Dont have an account? Sign Up</u></string>
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+    <string name="faq_answers"><b>A1. Sorry, we don’t accept orders on call. However you can call us on +91-7259085922 for any help related to placing order.\n
+</b></string>
+    <string name="faq_question"><b>Q1. Can I place order on call?</b></string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string-array name="Category">
+        <item>Chicken</item>
+        <item>Mutton</item>
+        <item>Rabbit</item>
+        <item>Beef</item>
+        <item>Fish</item>
+    </string-array>
+</resources>

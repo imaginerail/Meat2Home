@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965619465208",
+    "firebase_url": "https://restaurantalpha-1598711137144.firebaseio.com",
+    "project_id": "restaurantalpha-1598711137144",
+    "storage_bucket": "restaurantalpha-1598711137144.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965619465208:android:1c0e4b2c65a29e4352f40d",
+        "android_client_info": {
+          "package_name": "com.example.restaurantalpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965619465208-2rfqvanlhc713i2fqct7u4nad676s6gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLNuKYnYkbO2JhSGZ9y_ZrtwXGK7PLMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965619465208-2rfqvanlhc713i2fqct7u4nad676s6gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

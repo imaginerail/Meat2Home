@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurantalpha">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appiconic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appiconic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity android:name=".activity.PhoneVerificationActivity"/>
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.CategoryMainActivity" />
+        <activity android:name=".activity.TOSActivity" />
+        <activity android:name=".activity.FAQActivity" />
+        <activity android:name=".activity.ContactUsActivity" />
+        <activity android:name=".activity.CategoryActivity" />
+        <activity android:name=".activity.AccessLocationActivity" />
+        <activity android:name=".activity.CurrentLocationActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AlzaSyD9n82Cb0oklCoXYeL03-KCdmvYOwSfFfM" />
+
+        <activity android:name=".activity.CheckLocationActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.SignInActivity" />
+        <activity android:name=".activity.MenuActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SignUpActivity" />
+        <activity android:name=".activity.PaytmActivity" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

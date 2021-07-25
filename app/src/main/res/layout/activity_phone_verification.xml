@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C34040"
+    tools:context=".activity.PhoneVerificationActivity">
+
+    <ImageView
+        android:id="@+id/imgMeat2home"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/site_icon" />
+
+    <RelativeLayout
+        android:id="@+id/llotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+
+
+        <EditText
+            android:id="@+id/etotp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_et"
+            android:drawableStart="@drawable/ic_verify"
+            android:hint=" Enter OTP"
+            android:inputType="phone"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnverify"
+            android:layout_below="@+id/etotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#F3291A"
+            android:text="submit otp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/llphoneverify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_et"
+            android:drawableStart="@drawable/ic_mobile"
+            android:hint=" Enter your Mobile Number"
+            android:inputType="phone"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnsignIn"
+            android:layout_below="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#F3291A"
+            android:text="get verification code"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rlsigninbtn"
+            android:layout_below="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#DD8882"
+            android:textAlignment="center"
+            android:textSize="24sp" >
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

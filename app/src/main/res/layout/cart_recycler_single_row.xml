@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:background="@color/common_google_signin_btn_text_light_disabled"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="11">
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtSno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="No."
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtMenuName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtItemCost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="Cost"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtItemQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="Qty"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtItemTotalCost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="Total Cost"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>
