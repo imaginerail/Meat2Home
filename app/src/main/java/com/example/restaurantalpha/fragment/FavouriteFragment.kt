@@ -21,7 +21,7 @@ import com.example.restaurantalpha.activity.MainActivity
 import com.example.restaurantalpha.adapter.FavouritesAdapter
 import com.example.restaurantalpha.database.FavouritesDatabase
 import com.example.restaurantalpha.database.FavouritesEntity
-import kotlinx.android.synthetic.main.fragment_f_a_q.*
+//import kotlinx.android.synthetic.main.fragment_f_a_q.*
 
 
 class FavouriteFragment : Fragment() {

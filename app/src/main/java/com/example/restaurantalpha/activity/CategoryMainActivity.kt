@@ -14,7 +14,7 @@ import com.example.restaurantalpha.adapter.ViewPagerAdapter
 import com.example.restaurantalpha.fragment.CartFragment
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.android.synthetic.main.activity_main.*
+//import kotlinx.android.synthetic.main.activity_main.*
 
 class CategoryMainActivity : AppCompatActivity() {
     lateinit var toolbar: Toolbar

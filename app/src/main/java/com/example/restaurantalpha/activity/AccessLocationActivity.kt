@@ -76,7 +76,7 @@ class AccessLocationActivity : AppCompatActivity() {
                         (mLastLocation)!!.longitude,
                         1
                     )
-                    val address = addresses[0]
+                    val address = addresses?.get(0)!!
                     val pata = "${address.getAddressLine(0)}\n${address.locality}"
                     sharedPreferences.edit().putString("Location", pata).apply()
                     sharedPreferences.edit().putBoolean("gotLocation", true).apply()
